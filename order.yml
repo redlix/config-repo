@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Drive
+    username: root
+    password: Redli9600,.0@H
+eureka:
+  client:
+    service-url: 
+      defaultZone: http://localhost:8761/eureka/

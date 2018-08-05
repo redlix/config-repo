@@ -1,7 +1,1 @@
-spring:
-  application:
-    name: config
-  datasource:
-    driver-class-name: com.mysql.jdbc.Drive
-    username: root
-    password: Redli9600,.0@H
+

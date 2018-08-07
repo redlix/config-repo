@@ -1,13 +1,14 @@
 spring:
   application:
-    name: config
+    name: order
   datasource:
-    driver-class-name: com.mysql.jdbc.Drive
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: Redli9600,.0@H
+    password: Redli9600,.0@
+    url: jdbc:mysql://redli.xin:3306/sell?characterEncoding=utf-8&useSSL=false
 eureka:
   client:
-    service-url: 
+    service-url:
       defaultZone: http://localhost:8761/eureka/
 env:
   dev

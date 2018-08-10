@@ -11,6 +11,9 @@ spring:
     port: 5672
     username: guest
     password: guest
+  redis:
+    host: redli.xin
+    port: 6379
 eureka:
   client:
     service-url:

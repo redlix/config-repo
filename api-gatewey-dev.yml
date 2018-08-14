@@ -1,3 +1,9 @@
+spring:
+  application:
+    name: api-gatewey
+  redis:
+    host: redli.xin
+    port: 6379
 zuul:
   sensitive-headers: 
   routes:
